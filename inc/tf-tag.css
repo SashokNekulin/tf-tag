@@ -1,0 +1,18 @@
+.tf-tag{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.tf-tag a{
+	color: rgb(171, 171, 171);
+	background: rgb(248, 248, 248); 
+	padding: 4px 14px;
+	margin: 4px;
+	display: inline-block;
+	border-radius: 2px;
+	font-size: 20px
+}
+
+.tf-tag a:hover{
+	background: #4b7eb9;
+	color: #fff;
+}
