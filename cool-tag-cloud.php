@@ -3,7 +3,7 @@
 Plugin Name: Tf Tag
 Plugin URI: https://github.com/SashokNekulin/tf-tag
 Description: A simple, yet very beautiful tag cloud.
-Version: 1.0.3
+Version: 1.0.4
 Author: Alexandr Nikulin
 Author URI: https://github.com/SashokNekulin
 Text Domain: tf-tag

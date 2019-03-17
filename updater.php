@@ -78,7 +78,7 @@ class Smashing_Updater {
 					'name'				=> $this->plugin["Name"],
 					'slug'				=> $this->basename,
 					'requires'			=> '5.1',
-					'tested'			=> '1.0.3',
+					'tested'			=> '1.0.4',
 					'rating'			=> '100.0',
 					'num_ratings'		=> '10823',
 					'downloaded'		=> '14249',
