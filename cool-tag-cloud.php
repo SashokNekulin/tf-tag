@@ -249,8 +249,8 @@ function Tf_Tag_register_widget() {
 } add_action('widgets_init', 'Tf_Tag_register_widget' );
 
 function Tf_Tag_files() {
-	$purl = plugin_dir_url();
-	wp_register_style('tf-tag', $purl . 'inc/tf-tag.css',array(), 'v1.0');
+	$purl = plugin_dir_url(__FILE__);
+	wp_register_style('tf-tag', $purl . 'inc/tf-tag.css',array(), 'v1.1');
 	wp_enqueue_style('tf-tag');   
 }
 add_action('wp_enqueue_scripts', 'Tf_Tag_files');
