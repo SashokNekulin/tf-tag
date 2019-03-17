@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Tf Tag
-Plugin URI: https://my-say.ru
+Plugin URI: https://github.com/SashokNekulin/tf-tag
 Description: A simple, yet very beautiful tag cloud.
 Version: 1.0
 Author: Alexandr Nikulin
-Author URI: https://my-say.ru
+Author URI: https://github.com/SashokNekulin
 Text Domain: tf-tag
 */ 
 
