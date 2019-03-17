@@ -3,7 +3,7 @@
 Plugin Name: Tf Tag
 Plugin URI: https://github.com/SashokNekulin/tf-tag
 Description: A simple, yet very beautiful tag cloud.
-Version: 1.0.2
+Version: 1.0.3
 Author: Alexandr Nikulin
 Author URI: https://github.com/SashokNekulin
 Text Domain: tf-tag
@@ -250,7 +250,7 @@ function Tf_Tag_register_widget() {
 
 function Tf_Tag_files() {
 	$purl = plugins_url();
-	wp_register_style('tf-tag', $purl . '/tf-tag/inc/tf-tag.css',array(), 'v1.0');
+	wp_register_style('tf-tag', $purl . '/tf-tag-master/inc/tf-tag.css',array(), 'v1.0');
 	wp_enqueue_style('tf-tag');   
 }
 add_action('wp_enqueue_scripts', 'Tf_Tag_files');
