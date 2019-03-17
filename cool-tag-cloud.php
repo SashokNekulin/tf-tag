@@ -3,7 +3,7 @@
 Plugin Name: Tf Tag
 Plugin URI: https://github.com/SashokNekulin/tf-tag
 Description: A simple, yet very beautiful tag cloud.
-Version: 1.0
+Version: 1.0.0
 Author: Alexandr Nikulin
 Author URI: https://github.com/SashokNekulin
 Text Domain: tf-tag
@@ -308,3 +308,14 @@ function Tf_Tag_sc( $atts = array(), $content = false ) {
 	return $output;
 
 } add_shortcode( 'Tf_Tag', 'Tf_Tag_sc' );
+
+if( ! class_exists( 'Smashing_Updater' ) ){
+	include_once( plugin_dir_path( __FILE__ ) . 'updater.php' );
+}
+$updater = new Smashing_Updater( __FILE__ );
+$updater->set_username( 'SashokNekulin' );
+$updater->set_repository( 'tf-tag' );
+/*
+	$updater->authorize( 'abcdefghijk1234567890' ); // Your auth code goes here for private repos
+*/
+$updater->initialize();
